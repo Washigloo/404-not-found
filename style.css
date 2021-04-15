@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap');
+
+
+
+
+body{
+    margin-left:24px;
+    margin-right:24px;
+    
+}
+h2{left:77px;
+    top:40px;
+    font-family:monospace,'Inconsolata';
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
+img{
+    left: 5.35%;
+    right: 57.21%;
+    top: 24.54%;
+    bottom: 37.11%;
+    width: 539.22px;
+}
+h1{
+    font-family:normal,'Space Mono';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    color:#333333;
+    max-width:586px;
+
+}
+p{
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35.54px;
+    font-weight: 400;
+    color:#4F4F4F;
+    max-width: 381px;
+
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 90vh;
+}
+.scarecrow{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.info{
+    max-width: 100%;
+    height:auto;
+    margin: auto;
+}
+
+button{
+    color:white;
+    max-width: 216px;
+    height: 68px;
+    background: #333333;
+    text-transform: uppercase;
+    font-family: 'Space Mono',monospace;
+    padding: 3vh;
+    text-align: center;
+}
+.footer a{
+    color:#BDBDBD;
+    text-decoration:none;
+
+}
+.footer{
+    color:#BDBDBD;
+    text-decoration:none;
+    position: absolute;
+    width:232px;
+    margin-left: -116px;
+    left:50%;
+    
+}
+@media only screen and (max-width:1150px){
+    .container{
+        grid-auto-flow: row;
+        grid-template-columns: 100vw;
+        grid-template-rows: auto auto;
+    }
+    .scarecrow{
+        padding:5%
+    }
+    .scarecrow img{
+        width:100%;   
+    }
+    .info{
+        padding:5%;
+    }
+    .info h1{
+        font-size: 48px;
+        line-height: 71px;
+        
+    }
+    .info p{
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .footer{
+        margin-top:5vh;
+    }
+    
+}
